@@ -1,0 +1,103 @@
+.navbar {
+    background-color: var(--bs-gray-400) !important;
+    font-size: 1rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+
+.logo_icon {
+    font-size: 1.5rem;
+    padding-bottom: 0.4rem;
+}
+
+.logo span {
+    color: green;
+    font-weight: bolder;
+}
+
+
+
+.nav-item {
+    margin: 0 5px;
+}
+
+.dropdown-menu {
+    background-color: black;
+}
+
+.dropdown-item {
+    text-transform: uppercase;
+}
+
+.dropdown-item a {
+    text-decoration: none;
+}
+.nav-link {
+    color: var(--bs-info);
+    font-weight: 600;
+}
+
+.nav-link .active{
+    color: var(--bs-secondary);
+    font-weight: 600;
+}
+.nav-link a {
+    text-decoration: none;
+    color: var(--bs-info);
+    font-size: 1rem;
+    text-transform: uppercase;
+
+}
+/* ============== Communication part========= */
+.users_container{
+    display: flex;
+    gap: 1rem;
+}
+
+.social_icons {
+    display: none;
+}
+/*  ==================== Media Qualries======================== */
+@media screen and (max-width : 1400px) {
+    .call_icon, .tel_no {
+        display: none;
+    }
+}
+
+@media screen and (max-width :993px) {
+    .search_icon {
+        display: none;
+    }
+
+    .social_icons {
+        display: block;
+        position: absolute;
+        bottom: 2rem;
+        left: 50%;
+        transform: translate(-50%);
+
+    }
+
+    .social_icons {
+        display: block;
+        position: absolute;
+        font-size: 1.2rem;
+        bottom: 2rem;
+        left: 50%;
+        transform: translate(-50%);
+        background-color: var(--bs-dark);
+        border-radius: 10px;
+    }
+    
+    .f_icon, .g_icon, .t_icon, .l_icon {
+        margin: 0.6rem;
+        color: white;
+        cursor: pointer;
+    }
+
+
+}

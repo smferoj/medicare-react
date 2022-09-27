@@ -1,0 +1,9 @@
+.contact_header{
+    height: 25vh;
+}
+.contact_title{
+color: var(--bs-dark);
+font-weight: 700;
+font-size: 3rem;
+padding: 1rem 0;
+}

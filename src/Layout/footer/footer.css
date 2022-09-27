@@ -1,0 +1,106 @@
+/* .footer{
+   box-sizing: border-box;
+   padding-top: 3rem;
+} */
+
+.footer_logo_icon{
+ font-size: 2rem;
+}
+
+.footer_logo {
+    text-align: center;
+}
+.footer_logo h4{
+    display: inline;
+    padding-left: 0.8rem;
+    font-size: 1.6rem;
+}
+
+.footer_logo span{
+    color: green; 
+}
+
+.footer_logo_part{
+    font-size: 1.2rem;
+    color: var(--bs-dark);
+    text-align: justify;
+    padding-bottom: 2rem;
+}
+
+.footer_call_section{
+    text-align: center;
+}
+.footer_call_icon{
+    color: var( --bs-light);
+    font-size: 1.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color:var( --bs-secondary);
+    border-radius: 50% 50% 0 50%;
+    
+}
+
+.footer_tel_no{
+    color: var(--bs-info);
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+/*============= Quick Links=========== */
+
+.footer_links, .footer_services{
+    text-align: center;
+}
+
+
+.footer_links h2, .footer_services h2, .subscribe h2{
+    font-size: 1.7rem;
+}
+
+.footer_links a{
+    font-size: 1.2rem;
+    color: var(--bs-dark);
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer_links p{
+     margin: 0.5rem;
+}
+
+.footer_services p{
+    font-size: 1.2rem;
+    color: var(--bs-dark);
+    font-weight: 600;
+    text-align: center;
+}
+
+.subscribe{
+    text-align: center;
+}
+.subscribe p{
+    font-size: 1rem;
+    color: var(--bs-dark);
+    font-weight: 600;
+}
+
+.footer_icons{
+    background: var(--bs-dark);
+    display: flex;
+    gap: 2rem;
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    padding: 1.5rem;
+    color: whitesmoke;
+    border-radius: 10px;
+
+
+}
+
+.footer_icons .icon{
+    cursor: pointer;
+}

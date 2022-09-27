@@ -1,0 +1,128 @@
+
+
+.title-text {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.banner_text h1 {
+  padding: 1.2rem 0;
+  
+}
+
+.banner_img {
+  animation: profile_img 4s linear alternate-reverse infinite;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+ .animated_mini-img{
+
+  position: relative;
+
+ }
+
+@keyframes profile_img {
+  0%,
+  100% {
+    bottom:0;
+  }
+  50% {
+    bottom: 3px;
+  }
+}
+
+.mini_1 {
+  animation: mini_1 4s linear alternate-reverse infinite;
+  position: absolute;
+
+}
+
+@keyframes mini_1 {
+  0%,
+  100% {
+    top:-60px;
+    left:130px;
+  }
+
+  50% {
+    top:-60px;
+    left:135px;
+  }
+}
+
+.mini_2 {
+  animation: mini_2 4s linear alternate-reverse infinite;
+  position: absolute;
+}
+
+@keyframes mini_2 {
+  0%,
+  100% {
+    top:-525px;
+    left:100px;
+  }
+
+  50% {
+    top:-530px;
+    left:100px;
+  }
+}
+
+
+.mini_4 {
+  animation: mini_4 4s linear alternate-reverse infinite;
+  position: absolute;
+
+}
+
+@keyframes mini_4 {
+  0%,
+  100% {
+    top:-250px;
+    left: 550px;
+  }
+
+  50% {
+    top: -255px;
+    left:550px;
+  }
+}
+
+
+.mini_5 {
+  animation: mini_5 4s linear alternate-reverse infinite;
+  position: absolute;
+
+}
+
+@keyframes mini_5 {
+  0%,
+  100% {
+    top:-10px;
+    right: 250px;
+  }
+
+  50% {
+    top: -10px;
+    right:255px;
+  }
+}
+
+
+
+
+/* =================== Media Quaries=============== */
+@media screen and (max-width :992px) {
+  .banner_text {
+     text-align: center;
+  }
+  
+  .animated_mini-img {
+      display: none;
+  }
+
+}

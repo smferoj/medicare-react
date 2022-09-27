@@ -1,0 +1,65 @@
+
+
+.form_section{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+ }
+ .form_section input, .form_section textarea{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 1px solid black;
+    resize: none; 
+ }
+
+
+.contact_item h5::after {
+    position: relative;
+    display: block;
+    content: '';
+    height:2px;
+    background-color: var(--bs-secondary);
+    width: 80%;
+    margin-left: 0;
+    margin-top: 5px;
+}
+
+ input, textarea{
+    width: 100%;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--bs-gray-900);
+     resize: none; 
+ }
+
+ /* ================== Communicate section ================ */
+
+ .communicate_section{
+
+    color: var(--bs-light);
+    padding: 2rem;
+    min-height:100%;
+    border-radius: 10px;
+    background:url('../../../assets/images/about_img1.jpg'), linear-gradient(rgba(18, 17, 17, 0.8),rgba(0, 46, 106, 0.8));
+    background-size:cover;
+    background-blend-mode: multiply;
+ }
+
+ .contact_icons{
+    display: flex;
+    font-size: 1.7rem;
+    gap: 1.5rem;
+    padding:0.7rem;
+    margin-top: 3rem;
+    width: 50%;
+    border-radius: 10px;
+    justify-content: center;
+    
+ }
+  
+.contact_icons .icon{
+    cursor: pointer;
+}
